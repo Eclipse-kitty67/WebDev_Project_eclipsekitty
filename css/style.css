@@ -1,0 +1,29 @@
+h1{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+    background-color: black;
+}
+#back{
+    background-color: rgb(249, 206, 191);
+}
+
+#m{
+    background-color: rgb(108, 166, 166);
+
+}
+.ty{
+     background-color: azure;
+     font-family: "Cormorant Garamond", serif;
+     font-weight: 400;
+     font-style: normal;
+}
+#j{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.move{
+    text-align: center;
+}
