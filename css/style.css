@@ -4,26 +4,48 @@ h1{
     font-style: normal;
     color: white;
     background-color: black;
+    border-bottom: 2px solid white;
 }
 #back{
-    background-color: rgb(249, 206, 191);
+    background-image: url('https://images.pexels.com/photos/38901700/pexels-photo-38901700.jpeg');
+    background-size: auto;
 }
 
 #m{
-    background-color: rgb(108, 166, 166);
+    background-color: rgb(135, 147, 147);
 
 }
+#intro{
+    height: 50px;
+    color: aliceblue;
+    background-image:url('https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg');
+    background-repeat: round;
+}
 .ty{
-     background-color: azure;
      font-family: "Cormorant Garamond", serif;
      font-weight: 400;
      font-style: normal;
+    
 }
+h2{
+    font-family: "Cormorant Garamond", serif;
+     font-weight: 400;
+     font-style: normal;
+     border-bottom: 2px solid white;
+}
+
 #j{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
     text-align: center;
     font-size: 35px;
 }
 .move{
+    margin: 10;
+    padding: 7px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.564);
+    border-bottom: 2px solid white;
 }
