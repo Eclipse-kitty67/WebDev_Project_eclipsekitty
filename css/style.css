@@ -7,6 +7,13 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+
+
+.hero-img
+{
+    width: 50%;
+}
+
 h1{
     font-family: "Great Vibes", cursive;
     font-size: 50px;
@@ -80,11 +87,15 @@ nav a{
 
 }
 
+
+
 nav a:hover{
     color: rgb(255, 255, 255);
     background-color: black;
     transform: translateY(-2px);
 }
+
+
 
 .gallery {
     display: flex;
@@ -117,7 +128,40 @@ nav a:hover{
     margin-top: 30px;
 }
 
-/* Mobile devices (< 600px) */
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    .hero-img {
+        width: 75%;
+    }
+
+    .gallery img {
+        width: 47%;
+        height: 240px;
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) {
+    .hero-img {
+        width: 50%;
+    }
+
+    .gallery img {
+        width: 45%;
+        height: 340px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 599px) {
     .move {
         flex-direction: column;
@@ -143,30 +187,15 @@ nav a:hover{
     }
 }
 
-/* Tablets (600px to 1024px) */
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-    h1 {
-        font-size: 44px;
-    }
 
-    .hero-img {
-        width: 75%;
-    }
 
-    .gallery img {
-        width: 47%;
-        height: 240px;
-    }
+
+@keyframes bell {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(8deg); }
+    75% { transform: rotate(-8deg); }
 }
 
-/* Desktop screens (> 1024px) */
-@media screen and (min-width: 1025px) {
-    .hero-img {
-        width: 50%;
-    }
-
-    .gallery img {
-        width: 45%;
-        height: 340px;
-    }
+.anim {
+    animation: bell 1s infinite;
 }
